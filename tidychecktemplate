@@ -1,0 +1,2 @@
+#!/bin/sh
+tidy -e -xml -access 3 -utf8 $1

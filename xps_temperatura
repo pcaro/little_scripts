@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Remember to add coretemp to /etc/modules .
+echo "Temperatura de la cpu (dos núcleos)"
+echo "acpi -t"
+echo ""
+acpi -t

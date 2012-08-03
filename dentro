@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rgrep -I -i -n $1 . | grep -v svn | grep -v \~

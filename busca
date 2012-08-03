@@ -1,0 +1,3 @@
+#!/bin/sh
+
+find -L -iname "*$1*" | grep -v svn | grep -v '.hg' | grep -v  pyc
