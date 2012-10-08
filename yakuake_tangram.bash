@@ -2,13 +2,13 @@
 #
 # Create my standard yakuake windows.
 
+BASE=$HOME/src/tangram/portel/tangram-proyecto-portel/buildout-bpmsite/
+
 sessions=(
-    ceic_aguja        'v ceic_aguja; supervisorctl shutdown ; clear ; supervisord; cd django_ezweb'
-    ceic_adaptadores  'v ceic_adaptadores; supervisorctl shutdown ; clear ; supervisord'
-    ceic_mailproxy    'v ceic_mailproxy; supervisorctl shutdown ; clear ; supervisord'
-    ceic_pfirma       'v ceic_pfirma; supervisorctl shutdown ; clear ; supervisord'
-    ceic_eco          'v ceic_eco; supervisorctl shutdown ; clear ; supervisord'
-    ceic_proxy        'v ceic_proxy; clear; nginxproxy'
+    runserver         "cd $BASE; bin/django runserver;"
+    portel            "cd $BASE"
+    tangram           "cd $BASE/bpmsite/tangram"
+    procedimientos    "cd $BASE/../procedimientos"
     )
 
 

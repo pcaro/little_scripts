@@ -1,1 +1,1 @@
-rsync -azPvh --delete -e 'ssh' --exclude 'Music' --exclude 'virtual-machines' /home/pcaro/  pcaro@192.168.0.196:/home/pcaro/xps
+rsync -azPvh --delete -e 'ssh' --exclude 'Music' --exclude 'virtual-machines' --exclude '.cache' --exclude '.mozilla' /home/pcaro/  pcaro@192.168.0.196:/home/pcaro/xps
