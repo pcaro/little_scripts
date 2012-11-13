@@ -1,0 +1,25 @@
+Mercurial==2.4
+
+hgshelve==0.1
+hghooks==0.5.4
+pyflakes
+pep8==1.2
+pyjslint
+
+hg-git==0.3.4
+dulwich==0.8.6
+
+-e hg+https://bitbucket.org/durin42/histedit#egg=hg-histedit
+
+# color
+# rebase
+# mq
+# convert
+# progress
+# pager
+
+
+# hgnested 0.5 fails in Mercurial >= 2.3
+# Remove when hgnested 0.6 released
+-e hg+https://code.google.com/p/hgnested/#egg=hgnested
+

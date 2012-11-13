@@ -1,0 +1,63 @@
+#### Release tools  ####
+zc.sourcerelease
+yaco.releaser
+pip-tools
+# pyutilib.virtualenv
+# jarn.mkrelease
+
+#### Deploy ####
+fabric
+# fabric-virtualenv
+virtualenv-tools
+virtualenv-clone
+# virtualenvwrapper
+# pyutilib.virtualenv
+zc.buildout
+# buildout-source-release
+
+#### Documentation  ####
+sphinx
+sphinxcontrib-spelling
+docutils
+restview
+
+#### Templates ####
+django-project-templates
+django-fab-templates
+openerp_bootstrap
+# sc.paster.theme
+# sc.paster.policy
+# sc.paster.buildout
+# sc.paster.package
+# quintagroup.themetemplate
+# zopeskel.dexterity
+# flask-skel
+
+#### Testing ####
+pytest
+# pytest-oerp
+
+
+#### Dev Utils ####
+bpython
+ipython
+z3c.checkversions
+pylint
+pylint-i18n
+jstools
+i18ndude
+pep8ify
+
+#### Other ####
+dotfiles
+httpie
+
+#collective.dexteritypaste
+# littlechef
+# No instala bien por el Paste
+#modern-package-template
+# nensskel
+# pss
+# blogofile
+# tacot
+# py.test
