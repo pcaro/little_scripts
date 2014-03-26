@@ -1,3 +1,0 @@
-#!/bin/sh
-echo "Usage: dropbox-yaco start -i "
-HOME=$HOME/.dropbox-yaco-home dropbox "$@"
